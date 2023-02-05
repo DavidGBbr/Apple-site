@@ -190,3 +190,58 @@ figcaption a:hover {
 .card-text.dark p {
   color: #fff;
 }
+
+#acessories-section {
+  margin-top: 90px;
+}
+
+.small-card {
+  min-width: 313px;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  text-align: left;
+}
+
+.card-image img {
+  min-width: 230px;
+  height: 230px;
+  border-radius: 0px;
+}
+
+.card-content-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 150px;
+  width: 100%;
+}
+
+.card-title {
+  min-height: 50px;
+  padding-bottom: 20px;
+}
+
+.card-content-info h4 {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21px;
+  margin: 0px;
+}
+
+.card-content-info p {
+  font-size: 14px;
+}
+
+.new-product {
+  font-size: 12px;
+  color: #bf4800;
+  margin-bottom: 10px;
+  width: 100%;
+}
