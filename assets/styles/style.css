@@ -2,11 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: #1d1f1f;
+  background-color: #f5f5f7;
 }
 
 .container {
   width: 1000px;
   margin: 0 auto;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Header */
@@ -46,6 +56,9 @@ i {
 #student-promotion {
   text-align: center;
   font-size: 14px;
+  background-color: #fff;
+  width: 100%;
+  padding: 5px 0px;
 }
 
 .link {
@@ -63,7 +76,7 @@ i {
 }
 
 #row-content {
-  margin-top: 80px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,11 +121,72 @@ figcaption {
 }
 
 figcaption a {
-  color: #000;
+  color: #1d1f1f;
   text-decoration: none;
   font-size: 14px;
 }
 
 figcaption a:hover {
   text-decoration: underline;
+}
+
+/* news-section */
+
+#news-section {
+  margin-top: 90px;
+}
+
+.box-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 4px 7px 12px rgb(0 0 0 / 50%);
+}
+
+.card img {
+  min-width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.card-text {
+  padding: 20px;
+  position: absolute;
+  width: 400px;
+}
+
+.card-text h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #6e6e73;
+}
+
+.card-text a {
+  color: #1d1f1f;
+  font-size: 28px;
+  font-weight: 600;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+}
+
+.card-text p {
+  font-size: 17px;
+}
+
+.card-text.dark h3,
+.card-text.dark a,
+.card-text.dark p {
+  color: #fff;
 }
