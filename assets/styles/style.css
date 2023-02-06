@@ -319,3 +319,28 @@ figcaption a:hover {
   margin: 0px;
   padding-top: 10px;
 }
+
+#services-section {
+  margin-top: 90px;
+}
+
+#services-section .card {
+  min-width: 480px;
+  position: relative;
+}
+
+#services-section .card-text {
+  padding: 45px;
+}
+
+#services-section .card-text a {
+  padding: 10px 0px 40px 0px;
+}
+
+#services-section .card .span-decoration {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 12px;
+  top: 30px;
+  font-weight: 600;
+}
