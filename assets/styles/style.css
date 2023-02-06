@@ -141,7 +141,8 @@ figcaption a:hover {
   gap: 20px;
 }
 
-.card {
+.card,
+.small-card {
   position: relative;
   transition: all 0.3s;
   cursor: pointer;
@@ -149,7 +150,8 @@ figcaption a:hover {
   box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
 }
 
-.card:hover {
+.card:hover,
+.small-card:hover {
   transform: scale(1.03);
   box-shadow: 4px 7px 12px rgb(0 0 0 / 50%);
 }
@@ -273,8 +275,31 @@ figcaption a:hover {
   padding: 55px 0px 30px 30px;
 }
 
-/* .card-text {
-  padding: 20px;
-  position: absolute;
-  width: 400px;
-} */
+#differentials-section {
+  margin-top: 90px;
+}
+
+.small-card {
+  min-height: 240px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.small-card .card-svg {
+  width: 100%;
+}
+
+.card-icon {
+  color: #68cc45;
+  font-size: 48px;
+}
+
+.small-card-text {
+  width: 100%;
+}
+
+.small-card-text p {
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: 600;
+}
