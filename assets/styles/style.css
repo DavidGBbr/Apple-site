@@ -303,3 +303,19 @@ figcaption a:hover {
   font-size: 24px;
   font-weight: 600;
 }
+
+#sounds-section {
+  margin-top: 90px;
+}
+
+#sounds-section .card-text {
+  padding: 30px;
+  width: calc(100% - 60px);
+}
+
+#sounds-section .card-text p {
+  font-weight: 400;
+  font-size: 17px;
+  margin: 0px;
+  padding-top: 10px;
+}
