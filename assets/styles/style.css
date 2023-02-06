@@ -344,3 +344,17 @@ figcaption a:hover {
   top: 30px;
   font-weight: 600;
 }
+
+#exclusive-section {
+  margin-top: 90px;
+}
+
+#exclusive-section .card-text {
+  padding: 10px 30px 30px 30px;
+  width: calc(100% - 60px);
+}
+
+#exclusive-section .card-text a {
+  letter-spacing: 0px;
+  line-height: 30px;
+}
