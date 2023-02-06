@@ -245,3 +245,36 @@ figcaption a:hover {
   margin-bottom: 10px;
   width: 100%;
 }
+
+#help-section {
+  margin-top: 90px;
+}
+
+.horizontal-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.horizontal-cards .card img {
+  height: auto;
+}
+
+.horizontal-cards .card .card-text {
+  padding: 30px;
+}
+
+.horizontal-cards .card a {
+  font-size: 24px;
+}
+
+.horizontal-cards #left-text {
+  width: 50%;
+  padding: 55px 0px 30px 30px;
+}
+
+/* .card-text {
+  padding: 20px;
+  position: absolute;
+  width: 400px;
+} */
