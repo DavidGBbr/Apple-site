@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  width: 1000px;
+  width: 1100px;
   margin: 0 auto;
 }
 
@@ -157,7 +157,7 @@ figcaption a:hover {
 }
 
 .card img {
-  min-width: 400px;
+  min-width: 30vw;
   height: 500px;
   border-radius: 20px;
 }
@@ -165,7 +165,7 @@ figcaption a:hover {
 .card-text {
   padding: 20px;
   position: absolute;
-  width: 400px;
+  width: calc(100% - 40px);
 }
 
 .card-text h3 {
@@ -198,7 +198,7 @@ figcaption a:hover {
 }
 
 .small-card {
-  min-width: 313px;
+  min-width: 23vw;
   padding: 30px;
   box-sizing: border-box;
   display: flex;
@@ -325,7 +325,7 @@ figcaption a:hover {
 }
 
 #services-section .card {
-  min-width: 480px;
+  min-width: 40%;
   position: relative;
 }
 
@@ -357,4 +357,29 @@ figcaption a:hover {
 #exclusive-section .card-text a {
   letter-spacing: 0px;
   line-height: 30px;
+}
+
+#fast-links {
+  margin-top: 90px;
+}
+
+#fast-links ul {
+  margin-top: 29px;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  gap: 20px;
+}
+
+#fast-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  background-color: #e8e8ed;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+#fast-links a:hover {
+  background-color: #ebebf0;
 }
