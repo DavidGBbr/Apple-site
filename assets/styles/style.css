@@ -386,6 +386,7 @@ figcaption a:hover {
 
 #foot-notes {
   margin-top: 60px;
+  padding-bottom: 11px;
 }
 
 #foot-notes p {
@@ -404,4 +405,113 @@ figcaption a:hover {
 
 #foot-notes a:hover {
   text-decoration: underline;
+}
+
+footer nav {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 17px 0px;
+}
+
+footer i {
+  color: #424245;
+}
+
+footer i:hover {
+  color: #1d1f1f;
+}
+
+footer nav span {
+  font-size: 12px;
+  color: #424245;
+}
+
+#flex-table {
+  display: flex;
+}
+
+.table {
+  flex-basis: 25%;
+}
+
+.table ul {
+  list-style: none;
+  font-size: 12px;
+  color: #1d1f1f;
+  padding: 0px;
+  margin-bottom: 25px;
+}
+
+.table li {
+  margin-bottom: 10px;
+}
+
+.table li:first-child {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.table ul a {
+  text-decoration: none;
+  color: #6e6e73;
+  transition: 0.3s;
+}
+
+.table ul a:hover {
+  text-decoration: underline;
+  color: #424245;
+}
+
+footer p {
+  font-size: 12px;
+  color: #6e6e73;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #06c;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+#copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#copy p {
+  margin: 6px 0px;
+}
+
+#copy #link-copy {
+  font-size: 12px;
+  text-decoration: none;
+  color: #424245;
+}
+
+#copy #link-copy:hover {
+  text-decoration: underline;
+}
+
+#list-copy ul {
+  margin-top: 0px;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+}
+
+#list-copy .item-decoration {
+  border-right: 1px solid #6e6e73;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+#list-copy a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #6e6e73;
 }
